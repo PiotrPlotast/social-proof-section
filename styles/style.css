@@ -109,12 +109,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .rating {
   background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
   width: clamp(250px, 90%, 500px);
   padding: 1rem 0 0.8rem 0;
   text-align: center;
@@ -131,7 +132,39 @@ body {
 
 .rating__text {
   color: hsl(300, 43%, 22%);
+  font-size: 1.05rem;
   font-weight: 700;
+}
+
+.buyers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyer-card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: clamp(250px, 90%, 500px);
+}
+
+.buyer-card__picture {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.buyer-card__name {
+  color: hsl(0, 0%, 100%);
+}
+
+.buyer-card__verification {
+  color: hsl(333, 80%, 67%);
+}
+
+.buyer-card__opinion {
+  color: hsl(0, 0%, 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
