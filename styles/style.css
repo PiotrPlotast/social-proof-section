@@ -79,8 +79,28 @@ select {
   }
 }
 body {
-  font-family: "League Spartan", sans-serif;
   background-color: hsl(0, 0%, 100%);
+  font-family: "League Spartan", sans-serif;
+}
+
+.hero__heading {
+  color: hsl(300, 43%, 22%);
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 0.85;
+  margin: 5.3rem auto 1.5rem auto;
+  max-width: 15ch;
+  text-align: center;
+}
+
+.hero__text {
+  color: hsl(300, 43%, 22%);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: auto;
+  max-width: 32ch;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -82,6 +82,7 @@ select {
 
 // variables
 $heading-color: hsl(300, 43%, 22%);
+$hero-text-color: hsl(300, 43%, 22%);
 $buyer-card-color: hsl(300, 43%, 22%);
 $background-color: hsl(0, 0%, 100%);
 $accent-color: hsl(333, 80%, 67%);
@@ -90,6 +91,26 @@ $font-family: 'League Spartan', sans-serif;
 
 // styles
 body {
-    font-family: $font-family;
     background-color: $background-color;
+    font-family: $font-family;
+}
+
+.hero__heading {
+    color: $heading-color;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 0.85;
+    margin: 5.3rem auto 1.5rem auto;
+    max-width: 15ch;
+    text-align: center;
+}
+
+.hero__text {
+    color: $hero-text-color;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: auto;
+    max-width: 32ch;
+    text-align: center;
 }
