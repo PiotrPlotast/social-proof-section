@@ -124,14 +124,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.2rem;
 }
 
 .rating {
     background-color: $rating-bg-color;
     border-radius: 10px;
     margin-bottom: 0.9rem;
-    width: clamp(250px, 90%, 500px);
+    width: clamp(250px, 88%, 500px);
     padding: 1rem 0 0.8rem 0;
     text-align: center;
 }
@@ -162,17 +162,30 @@ body {
     background-color: $buyer-card-bg-color;
     border-radius: 10px;
     margin-bottom: 1rem;
-    width: clamp(250px, 90%, 500px);
+    width: clamp(250px, 88%, 500px);
+    padding: 1rem 0;
+}
+
+.buyer-card__buyer-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 2rem 0.5rem 0.5rem 2rem
 }
 
 .buyer-card__picture {
     border-radius: 50%;
-    // margin: 1rem auto 0.5rem auto;
+    margin-right: 1.5rem;
     width: 40px;
+    display: inline-block;
+    transform: translateY(-5px);
 }
 
 .buyer-card__name {
     color: $buyer-card-text-color;
+    display: block;
+    line-height: 1;
 }
 
 .buyer-card__verification {
@@ -181,4 +194,6 @@ body {
 
 .buyer-card__opinion {
     color: $buyer-card-text-color;
+    max-width: 32ch;
+    padding: 0 1rem 1rem 2rem;
 }
