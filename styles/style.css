@@ -94,13 +94,44 @@ body {
 }
 
 .hero__text {
-  color: hsl(300, 43%, 22%);
+  color: hsl(303, 10%, 53%);
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.4;
   margin: auto;
+  margin-bottom: 2.5rem;
   max-width: 32ch;
   text-align: center;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: clamp(250px, 90%, 500px);
+  padding: 1rem 0 0.8rem 0;
+  text-align: center;
+}
+
+.rating__stars {
+  display: block;
+}
+
+.star {
+  display: inline-block;
+  margin: 0 0.1rem;
+}
+
+.rating__text {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -82,10 +82,12 @@ select {
 
 // variables
 $heading-color: hsl(300, 43%, 22%);
-$hero-text-color: hsl(300, 43%, 22%);
+$hero-text-color: hsl(303, 10%, 53%);
+$rating-text-color: hsl(300, 43%, 22%);
 $buyer-card-color: hsl(300, 43%, 22%);
 $background-color: hsl(0, 0%, 100%);
 $accent-color: hsl(333, 80%, 67%);
+$rating-bg-color: hsl(300, 24%, 96%);
 $font-family: 'League Spartan', sans-serif;
 // end of variables
 
@@ -111,6 +113,37 @@ body {
     font-weight: 500;
     line-height: 1.4;
     margin: auto;
+    margin-bottom: 2.5rem;
     max-width: 32ch;
     text-align: center;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating {
+    background-color: $rating-bg-color;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    width: clamp(250px, 90%, 500px);
+    padding: 1rem 0 0.8rem 0;
+    text-align: center;
+}
+
+.rating__stars {
+    display: block;
+}
+
+.star {
+    display: inline-block;
+    margin: 0 0.1rem;
+}
+
+.rating__text {
+    color: $rating-text-color;
+    font-weight: 700;
 }
