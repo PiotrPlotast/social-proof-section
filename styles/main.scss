@@ -96,6 +96,9 @@ $font-family: 'League Spartan', sans-serif;
 body {
     background-color: $background-color;
     font-family: $font-family;
+    background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 
 .hero__heading {
