@@ -224,6 +224,7 @@ body {
     .hero__text {
         font-size: 1.2rem;
         margin: 2rem 0 0 20%;
+        max-width: 40ch;
         text-align: left;
     }
 
@@ -237,7 +238,7 @@ body {
 
     .rating {
         margin-left: 5%;
-        width: clamp(200px, 70%, 400px);
+        width: 400px;
     }
 
     .rating:nth-child(1) {
@@ -261,12 +262,24 @@ body {
         align-items: flex-start;
         flex-direction: row;
         grid-area: buyers;
-        justify-content: space-evenly;
+        gap: 2rem;
     }
 
     .buyer-card {
         width: 350px;
+
     }
 
+    .buyer-card__opinion {
+        max-width: 35ch;
+    }
+
+    .buyer-card:nth-child(1) {
+        transform: translateY(-20%);
+    }
+
+    .buyer-card:nth-child(2) {
+        transform: translateY(-10%);
+    }
 
 }
