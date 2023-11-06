@@ -238,6 +238,7 @@ body {
   }
   .buyer-card {
     width: 350px;
+    padding-bottom: 2rem;
   }
   .buyer-card__opinion {
     max-width: 35ch;
