@@ -1,5 +1,5 @@
-# social proof section
- Social proof section <br />
+# social proof section Frontend Mentor challange
+ Social proof section Frontend Mentor challange <br />
  Site live at: https://piotrplotast.github.io/social-proof-section/ <br />
  <br />
  Made using: <br />
